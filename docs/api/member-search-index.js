@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"edu.cnm.deepdive","c":"ClockAngles","l":"hourHandDegrees(int, double)","url":"hourHandDegrees(int,double)"},{"p":"edu.cnm.deepdive","c":"ClockAngles","l":"minuteHandDegrees(double)"}]
