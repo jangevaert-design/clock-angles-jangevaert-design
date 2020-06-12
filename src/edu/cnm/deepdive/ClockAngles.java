@@ -40,7 +40,9 @@ public class ClockAngles {
    * @return        angle (in degrees) to which hour hand is oriented.
    */
   public static double hourHandDegrees(int hours, double minutes) {
-    return 0; // TODO Replace this line with implementation.
+    double hourDegrees = 0;
+    hourDegrees = (hours * 30);
+    return hourDegrees;
   }
 
   /**
@@ -52,7 +54,9 @@ public class ClockAngles {
    * @return        angle (in degrees) to which minute hand is oriented.
    */
   public static double minuteHandDegrees(double minutes) {
-    return 0; // TODO Replace this line with implementation.
+    double minuteDegrees = 0;
+    minuteDegrees = (minutes * 0.5);
+    return minuteDegrees;// TODO Replace this line with implementation.
   }
 
 }
